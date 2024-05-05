@@ -1,0 +1,145 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<!doctype html>
+<html lang="zxx">
+
+
+<body>
+    <!--header-->
+    <!-- //header -->
+    <!-- about breadcrumb -->
+    <section class="w3l-about-breadcrumb text-left">
+        <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
+            <div class="container py-2">
+                <h2 class="title">Hakkımızda</h2>
+                <ul class="breadcrumbs-custom-path mt-2">
+                    <li><a href="#url">Ana Sayfa</a></li>
+                    <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Hakkımızda</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- //about breadcrumb -->
+    <!-- /about-6-->
+    <section class="w3l-cta4 py-5">
+        <div class="container py-lg-5">
+            <div class="ab-section text-center">
+                <h6 class="sub-title">Hakkımızda</h6>
+                <h3 class="hny-title">Türkiye'nin her yerinde anılar biriktirmek için seyahat et.</h3>
+                <p class="py-3 mb-3">
+                    Türkiye'yi keşfetmek, unutulmaz anılar biriktirmenin en keyifli yollarından biri.
+                    Gel, yeni maceralara adım at ve eşsiz deneyimler yaşa!
+                </p>
+                <a href="services.html" class="btn btn-style btn-primary">Daha Fazla</a>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-9 mx-auto">
+                    <img src="~/Traversal-Liberty/assets/images/banner3.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //about-6-->
+    <!-- /content-6-->
+    <section class="w3l-content-6 py-5">
+        <div class="container py-lg-5">
+            <div class="row">
+                <div class="col-lg-6 content-6-left pr-lg-5">
+                    <h6 class="sub-title">Neden Bizi Seçmelisiniz</h6>
+                    <h3 class="hny-title">
+                        Konfor bölgesinin sınırlarında hayat başlar.
+                    </h3>
+                </div>
+                <div class="col-lg-6 content-6-right mt-lg-0 mt-4">
+                    <p class="mb-3">
+                        Bizi seçmelisiniz çünkü müşteri memnuniyeti ve konfor bizim önceliğimizdir.
+                        Her müşteriye özel bir deneyim sunmak için çalışıyoruz. Geniş otel seçenekleri,
+                        uygun fiyatlar ve kolay rezervasyon süreciyle size en iyi tatil deneyimini yaşatmayı amaçlıyoruz.
+                        Ayrıca 7/24 müşteri hizmetleri desteğiyle herhangi bir sorunuz veya talebiniz olduğunda yanınızdayız.
+                        Sizin için en iyi tatil deneyimini sağlamak için buradayız.
+                    </p>
+                    <a href="services.html" class="btn btn-style btn-primary mt-4">Daha Fazla</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //content-6-->
+    <section class="w3l-grids1">
+        <div class="hny-three-grids py-5">
+            <div class="container py-lg-5">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 mt-0 grids5-info">
+                        <a href="#url"><img src="~/Traversal-Liberty/assets/images/antalya.jpg" class="img-fluid" alt=""></a>
+
+                        <h4><a href="#url">Basit Bir Şekilde Arayın</a></h4>
+                        <p>Saniyeler içinde aradığınız oteli bulun...</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mt-sm-0 mt-5 grids5-info">
+                        <a href="#url"><img src="~/Traversal-Liberty/assets/images/kelebek vadisi.jpg" class="img-fluid" alt=""></a>
+
+                        <h4>
+                            <a href="#url">
+                                Fiyatları Karşılaştırın
+                            </a>
+                        </h4>
+                        <p>Uygun oteller arasında fiyatları karşılaştırın...</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mt-md-0 mt-5 grids5-info">
+                        <a href="#url"><img src="~/Traversal-Liberty/assets/images/mardin2.jpg" class="img-fluid" alt=""></a>
+
+                        <h4><a href="#url">Fırsatlarla Çok Kazanın</a></h4>
+                        <p>Harika bir otel bulduğunuzu bilerek kendinizi rahat hissedin...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Template JavaScript -->
+    <script src="~/Traversal-Liberty/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="~/Traversal-Liberty/assets/js/theme-change.js"></script>
+    <!-- stats number counter-->
+    <script src="~/Traversal-Liberty/assets/js/jquery.waypoints.min.js"></script>
+    <script src="~/Traversal-Liberty/assets/js/jquery.countup.js"></script>
+    <script>
+        $('.counter').countUp();
+    </script>
+    <!-- //stats number counter -->
+    <!--/MENU-JS-->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!--//MENU-JS-->
+
+    <script src="~/Traversal-Liberty/assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

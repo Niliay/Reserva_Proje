@@ -1,0 +1,35 @@
+﻿@using EntityLayer.Concrete
+@model List<TatilYerleri>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Otel Düzenleme</h1>
+<table class=" table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Şehir</th>
+        <th>Otel Adı</th>
+        <th>Fiyat</th>
+        <th>Kapasite</th>
+        <th>Sitede Gör</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+    @foreach(var i in Model)
+    {
+        <tr>
+            <td>@i.OtelID</td>
+            <td>@i.Sehir</td>
+            <td>@i.OtelAdi</td>
+            <td>@i.Fiyat</td>
+            <td>@i.Kapasite</td>
+            <td><a href="/TatilYerleri/TatilYerleriDetails/@i.OtelID" class="btn btn-outline-info">Sitede Gör</a></td>
+            <td><a href="/Admin/Destination/OtelSil/@i.OtelID" class="btn btn-outline-danger">Sil</a></td>
+            <td><a href="/Admin/Destination/OtelGüncelle/@i.OtelID" class="btn btn-outline-success">Güncelle</a></td>
+        </tr>
+    }
+</table>
+<a href="/Admin/Destination/OtelEkle" class="btn btn-outline-primary">Yeni Otel</a>
+

@@ -1,0 +1,86 @@
+﻿@model EntityLayer.Concrete.TatilYerleri
+@{
+    ViewData["Title"] = "OtelEkle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Yeni Otel Ekleme Sayfası</h1>
+<form method="post">
+    <div class="form-group">
+        @Html.Label("Otel Adı")
+        <input type="text" asp-for="OtelAdi" class="form-control" />
+    </div> 
+    <br />
+    <div class="form-group">
+        @Html.Label("Şehir")
+        <input type="text" asp-for="Sehir" class="form-control" />
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.Label("Adres")
+        <input type="text" asp-for="Adres" class="form-control" />
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.Label("Fiyat")
+        <input type="text" asp-for="Fiyat" class="form-control" />
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.Label("Açıklama")
+        <input type="text" asp-for="Aciklama" class="form-control" />
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.Label("Ön Resim")
+        <input type="text" asp-for="Resim" class="form-control" />
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.Label("Kapasite")
+        <input type="text" asp-for="Kapasite" class="form-control" />
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.Label("Adres")
+        <input type="text" asp-for="Adres" class="form-control" />
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.Label("Resim")
+        <input type="text" asp-for="SlaytResmi1" class="form-control" />
+    </div>
+    <div class="form-group">
+        @Html.Label("Resim")
+        <input type="text" asp-for="SlaytResmi2" class="form-control" />
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.Label("Resim")
+        <input type="text" asp-for="SlaytResmi3" class="form-control" />
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.Label("Resim")
+        <input type="text" asp-for="SlaytResmi4" class="form-control" />
+    </div> 
+    <br />
+    <div class="form-group">
+        @Html.Label("Resim")
+        <input type="text" asp-for="Resim2" class="form-control" />
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.Label("Detay-1")
+        <textarea cols="30" rows="5" class="form-control" asp-for="Detay1"></textarea>
+    </div> 
+    <br />
+    <div class="form-group">
+        @Html.Label("Detay-2")
+        <textarea cols="30" rows="5" class="form-control" asp-for="Detay2"></textarea>
+    </div>
+    <br />
+    <button class="btn btn-outline-primary">Otel Oluştur</button>
+</form>
+
+
