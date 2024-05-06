@@ -15,8 +15,7 @@ Bu talimatlar, projeyi yerel makinenizde çalıştırmak veya geliştirmeye baş
 Projenin çalıştırılması için gereksinimler:
 - Veritabanı Yönetimi: Microsoft SQL Server kullanılarak oluşturulan veritabanı, müşteri bilgilerini güvenli bir şekilde depolayacak ve veri bütünlüğünü koruyacaktır.
 - Uygulamamın çalışması için .NET CORE 6.0 gerekmektedir
-- [Gereksinim 3 :kütüphaneler
-- ...
+- Uygulamada kullanıla kütüphaneler: Microsoft.AspNetCore.Identity(2.1.39) , Microsoft.AspNetCore.Identity.EntityFrameworkCore(6.0.29) , Microsoft.EntityFrameworkCore(6.0.29) , Microsoft.EntityFrameworkCore.Design(6.0.29) , Microsoft.EntityFrameworkCore.SqlServer(6.0.29) , Microsoft.EntityFrameworkCore.Tools(6.0.29) , Microsoft.VisualStudio.Web.CodeGeration.Design(6.0.16) ,FluentValidation(11.9.0), FluentValidation.AspNetCore(11.3.0)
 
 ### Kurulum
 
@@ -29,6 +28,10 @@ Projenin çalıştırılması için gereksinimler:
 ![oteller](https://github.com/Niliay/Reserva_Proje/assets/147251978/439ea9a9-c688-4e33-a959-518060c5da12)
 ![profil](https://github.com/Niliay/Reserva_Proje/assets/147251978/2e262772-a331-4f6d-a72e-8ee809c7a153)
 ![uye](https://github.com/Niliay/Reserva_Proje/assets/147251978/1450e786-09ef-468d-a6d9-83a39fd7ffbe)
+![otelDuzenleme](https://github.com/Niliay/Reserva_Proje/assets/147251978/62d7d008-b00a-4d08-aaac-08f4e5435f7b)
+![otelGuncelleme](https://github.com/Niliay/Reserva_Proje/assets/147251978/14a0fffe-d3eb-4316-b374-c6c42c395c8d)
+
+
 
 
 
