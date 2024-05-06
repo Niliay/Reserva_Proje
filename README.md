@@ -1,4 +1,4 @@
-![onay bekleyen res](https://github.com/Niliay/Reserva_Proje/assets/147251978/ee0bf4d4-6f14-47df-8dc6-a180e51fa378)# Reserva
+# Reserva
 
 Bu README dosyası, Reserva'nın açıklamasını ve kullanımını içermektedir.
 
@@ -20,6 +20,8 @@ Projenin çalıştırılması için gereksinimler:
 ### Kurulum
 
 1. Projenin kopyasını almak için: https://github.com/Niliay
+2. Proje Raporu : [124_rapor.pdf](https://github.com/Niliay/Reserva_Proje/files/15219447/124_rapor.pdf)
+
    
 
 ![aktif reservasyon](https://github.com/Niliay/Reserva_Proje/assets/147251978/1d4081cd-eb19-487e-9f0d-7fd258ce0756)
