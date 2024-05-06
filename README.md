@@ -15,7 +15,7 @@ Bu talimatlar, projeyi yerel makinenizde çalıştırmak veya geliştirmeye baş
 Projenin çalıştırılması için gereksinimler:
 - Veritabanı Yönetimi: Microsoft SQL Server kullanılarak oluşturulan veritabanı, müşteri bilgilerini güvenli bir şekilde depolayacak ve veri bütünlüğünü koruyacaktır.
 - Uygulamamın çalışması için .NET CORE 6.0 gerekmektedir
-- Uygulamada kullanıla kütüphaneler: Microsoft.AspNetCore.Identity(2.1.39) , Microsoft.AspNetCore.Identity.EntityFrameworkCore(6.0.29) , Microsoft.EntityFrameworkCore(6.0.29) , Microsoft.EntityFrameworkCore.Design(6.0.29) , Microsoft.EntityFrameworkCore.SqlServer(6.0.29) , Microsoft.EntityFrameworkCore.Tools(6.0.29) , Microsoft.VisualStudio.Web.CodeGeration.Design(6.0.16) ,FluentValidation(11.9.0), FluentValidation.AspNetCore(11.3.0)
+- Uygulamada kullanılan kütüphaneler: Microsoft.AspNetCore.Identity(2.1.39) , Microsoft.AspNetCore.Identity.EntityFrameworkCore(6.0.29) , Microsoft.EntityFrameworkCore(6.0.29) , Microsoft.EntityFrameworkCore.Design(6.0.29) , Microsoft.EntityFrameworkCore.SqlServer(6.0.29) , Microsoft.EntityFrameworkCore.Tools(6.0.29) , Microsoft.VisualStudio.Web.CodeGeration.Design(6.0.16) ,FluentValidation(11.9.0), FluentValidation.AspNetCore(11.3.0)
 
 ### Kurulum
 
